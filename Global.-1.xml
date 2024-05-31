@@ -1,0 +1,10 @@
+<Panel id="playerCountUI" rectAlignment="MiddleCenter" width="300" height="200" color="#FFFFFF" borderColor="#000000">
+    <VerticalLayout padding="20" spacing="20">
+        <Text text="Serão quantos jogadores?" alignment="MiddleCenter" fontSize="24" />
+        <HorizontalLayout spacing="10">
+            <Button text="2" onClick="setPlayerCount" id="2" color="#5ea27d" width="50" height="50" fontSize="24" />
+            <Button text="3" onClick="setPlayerCount" id="3" color="#5ea27d" width="50" height="50" fontSize="24" />
+            <Button text="4" onClick="setPlayerCount" id="4" color="#5ea27d" width="50" height="50" fontSize="24" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Panel>
